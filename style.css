@@ -90,4 +90,5 @@ body {
 }
 .link {
     color: #4697f1 !important;
+    text-decoration: underline !important;
 }
