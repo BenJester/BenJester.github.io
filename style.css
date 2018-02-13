@@ -2,6 +2,8 @@
     position: fixed;
     z-index: -100;
     height: 100vh;
+    top: 0;
+    left: 0;
 }
 body {
     background: radial-gradient(white 25%, rgb(237,237,237) 70%);
@@ -10,18 +12,22 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .container {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    width: 840;
 }
 
 
 
 #left {
-    margin-top: 30;
-    width: 230;  
+    margin-top: -10;
+    margin-right: 30;
+    width: 230; 
+    position: fixed;
 }
 #right {
-    margin-top: 40;
+    margin-top: 50;
+    margin-left: 240;
+    margin-right:0;
     width: 600;
 }
 #right > div {
@@ -31,6 +37,7 @@ body {
     font-weight: 700;
     font-size: 24;
     margin-bottom: 15;
+    color: rgb(50,50,70);
 }
 .content {
     font-size: 17;
