@@ -15,7 +15,22 @@ body {
     width: 840;
 }
 
+.case-study {
+    border: 1.2px solid #4697f1;
+    padding: 8px 14px 8px 14px;
+    border-radius: 20px;
+    margin-left: 220;
+    transition: transform .2s; !important
+}
 
+.case-study:hover {
+    transform: scale(1.1); !important
+}
+
+.case-study-font {
+    color: #4697f1;
+    font-size: 19;
+}
 
 #left {
     margin-top: 30;
